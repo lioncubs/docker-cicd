@@ -18,7 +18,7 @@ job('NodeJS Docker example') {
             registryCredentials('dockerhub-mikeb')
             forcePull(false)
             forceTag(false)
-            createFingerprints(false)
+            createFingerprints(true)
             skipDecorate()
         }
     }
